@@ -460,9 +460,6 @@ public class Mekanism
 		MachineType.FLUIDIC_PLENISHER.addRecipe(new MekanismRecipe(new ItemStack(MekanismBlocks.MachineBlock2, 1, 12), new Object[] {
 			"TTT", "CPC", "TTT", Character.valueOf('P'), new ItemStack(MekanismBlocks.MachineBlock, 1, 12), Character.valueOf('T'), "ingotTin", Character.valueOf('C'), MekanismUtils.getControlCircuit(BaseTier.BASIC)
 		}));
-		CraftingManager.getInstance().getRecipeList().add(new MekanismRecipe(new ItemStack(Blocks.rail, 24), new Object[] {
-			"O O", "OSO", "O O", Character.valueOf('O'), "ingotOsmium", Character.valueOf('S'), "stickWood"
-		}));
 		CraftingManager.getInstance().getRecipeList().add(new MekanismRecipe(MekanismItems.Flamethrower.getEmptyItem(), new Object[] {
 			"TTT", "TGS", "BCB", Character.valueOf('T'), "ingotTin", Character.valueOf('G'), MekanismUtils.getEmptyGasTank(), Character.valueOf('S'), Items.flint_and_steel, Character.valueOf('B'), "ingotBronze", Character.valueOf('C'), MekanismUtils.getControlCircuit(BaseTier.ADVANCED)
 		}));
